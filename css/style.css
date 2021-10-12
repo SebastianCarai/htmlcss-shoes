@@ -1,0 +1,73 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* COMMON */
+body{
+    font-family: arial;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.text-features{
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+
+/* MENU' */
+.menù{
+    position: fixed;
+    right: 3%;
+    top: 2%;
+    z-index: 50;
+}
+.menù-button{
+    display: inline-block;
+    background-color: white;
+    padding: 10px 15px;
+    margin-left: 3vh;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* PRODUCT */
+.product{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.yellow-text{
+    color: yellow;
+}
+.green-text{
+    color: green;
+}
+
+
+
+/* BG COLORS */
+#red-bg{
+    background-color: red;
+}
+#green-bg{
+    background-color: green;
+}
+#yellow-bg{
+    background-color: yellow;
+}
